@@ -1,4 +1,8 @@
 //https://codeforces.com/contest/144/problem/D
+/*  use dijkstra for finding the shortest distance to each vertex from the source
+    for any vertex v Silo is located iff dist[v] == L
+    any edge e may contain 0,1 or 2 silos
+*/
 
 #include <bits/stdc++.h>
 #define F first
