@@ -1,12 +1,12 @@
-/* AtCoder Regular Contest 083 (D - FT Robot) https://arc087.contest.atcoder.jp/tasks/arc087_b
+/* AtCoder Regular Contest 087 (D - FT Robot) https://arc087.contest.atcoder.jp/tasks/arc087_b
 *
-* If number of turns that the robot made are:
-* even --> he is walking on the x-axis now
-* odd  --> he is walking on the y-axis now
+* If number of turns that the robot made so far is:
+* even --> he is walking on the x-axis now.
+* odd  --> he is walking on the y-axis now.
 *
-* create dpx to know if it's possible to reach the required X-position
-* create dpy to know if it's possible to reach the required Y-position
-* If both are achievable then the answer is "Yes" else the answer is "No"
+* create dpx to know if it's possible to reach the required X-position.
+* create dpy to know if it's possible to reach the required Y-position.
+* If both are achievable then the answer is "Yes" else the answer is "No".
 *
 */
 
