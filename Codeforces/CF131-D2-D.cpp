@@ -1,3 +1,8 @@
+/*
+*   use dfs() to find the cycle
+*   use dfs2() to find the distances from each vertex to the cycle
+*/
+
 #include <bits/stdc++.h>
 #define F first
 #define S second
