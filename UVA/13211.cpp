@@ -1,3 +1,11 @@
+/*
+
+use the destroyed towers in reversed order as intermediate nodes in floyd
+to construct all pairs shortes path graphs step by step for every node
+
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
