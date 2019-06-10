@@ -13,18 +13,13 @@ int memo2[100][11][2][10004];
 int A, B, K;
 
 int digit(int A, int idx){
-
     return (int)(A / pow(10, 9 - idx)) % 10;
-
 }
 
 int dp1(int sum, int idx, bool isSmaller, int mod = 0){
 
     if(sum < 0) return 0;
-    if(sum == 0 && idx == 10 && mod == 0){
-        //cout << x << endl;
-         return 1;
-    }
+    if(sum == 0 && idx == 10 && mod == 0) return 1;
     if(idx == 10) return 0;
 
     int &res = memo1[sum][idx][isSmaller][mod];
